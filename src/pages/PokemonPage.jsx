@@ -377,7 +377,7 @@ export const PokemonPage = () => {
               <Grid  container spacing={2}>
                 <Grid xs={12} md={12} className="evolucion-container ">
                   <img
-                    src={`/src/assets/BW/${primeraEv}.png`}
+                    src={`./src/assets/BW/${primeraEv}.png`}
                     alt={`Pokemon ${pokemon?.name}`}
                     className="pokemon-img"
                   />
