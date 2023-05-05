@@ -395,7 +395,7 @@ export const PokemonPage = () => {
                       className="pokemon-img"
                     />
                     <img
-                      src={`/src/assets/flecha.png`}
+                      src={`/public/flecha.png`}
                       alt={`Pokemon ${pokemon?.name}`}
                       className="flecha-img"
                     />
@@ -423,7 +423,7 @@ export const PokemonPage = () => {
                       className="pokemon-img"
                     />
                     <img
-                      src={`/src/assets/flecha.png`}
+                      src={'/public/flecha.png'}
                       alt={`Pokemon ${pokemon?.name}`}
                       className="flecha-img"
                     />
@@ -438,7 +438,7 @@ export const PokemonPage = () => {
                       className="pokemon-img"
                     />
                     <img
-                      src={`/src/assets/flecha.png`}
+                      src={`/public/flecha.png`}
                       alt={`Pokemon ${pokemon?.name}`}
                       className="flecha-img"
                     />

@@ -7,7 +7,7 @@ export const CardPokemon = ({ pokemon }) => {
       <div className={`card-img ${pokemon.types[0].type["name"]}`}>
         <b className="pokemon-id">#{pokemon.id}</b>
         <img
-          src={`src/assets/BW/${pokemon.id}.png`}
+          src={`./src/assets/BW/${pokemon.id}.png`}
           alt={`Pokemon ${pokemon.name}`}
         />
         <h3>{pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h3>
